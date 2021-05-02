@@ -1,0 +1,22 @@
+<nav class="blue darken-4">
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Poster on NodeJs</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="https://github.com/rombintu/poster">Разработчик</a>
+        </li>
+
+        {{#if isIndex}}
+        <li class="active"><a href="/">Главная</a></li>
+        {{else}}
+        <li><a href="/">Главная</a></li>
+        {{/if}}
+
+        {{#if isCreate}}
+        <li class="active"><a href="/post">Создать задачу</a></li>
+        {{else}}
+        <li><a href="/post">Создать задачу</a></li>
+        {{/if}}
+      </ul>
+    </div>
+  </nav>

@@ -1,0 +1,25 @@
+.post {
+    margin-bottom: 1rem;
+  }
+  
+  .post span.completed {
+    text-decoration: line-through;
+  }
+  
+  .post label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+  }
+  
+  .post i {
+    z-index: 2;
+  }
+  
+  #btn_del_all {
+    background-color:rgba(248, 62, 62, 0.767);
+  }

@@ -1,0 +1,10 @@
+<form action="/post" method="POST">
+    <h2>Создать пост</h2>
+    <p>{{error}}</p>
+    <div class="input-field">
+        <input type="text" name="title">
+        <textarea name="content" cols="30" rows="10"></textarea>
+        {{!-- <label>ToDo title</label> --}}
+    </div>
+    <button type="submit" class="btn">Отправить</button>
+</form>
